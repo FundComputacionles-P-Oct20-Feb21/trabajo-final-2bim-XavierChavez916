@@ -214,7 +214,7 @@
                   "*----------------<***>---------------*"
 172. Fin funcion crearTwitter
 
-173. funcion obtenerMensaje(a, i)
+173. funcion obtenerMensaje(a, i) :x
 174.     cadena, x(200)[{a-z},{A-Z},{0-100},{BS}] <-- ""
 175.     (mensajeFinal(3),x(300)[{a-z}, {A-Z}, {BS}])
 176.     mensajeFinal <-- {"Campaña con poca afluencia", 
