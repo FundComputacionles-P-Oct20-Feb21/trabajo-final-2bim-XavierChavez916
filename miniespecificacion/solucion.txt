@@ -190,47 +190,47 @@
 153.    ciudad, x(200)[{a-z},{A-Z},{0-100},{BS}]
 154.    pais, x(200)[{a-z},{A-Z},{0-100},{BS}]
 155.    idioma, x(200)[{a-z},{A-Z},{0-100},{BS}]
-142.    Escribir "*-- Usted eligió la opción para crear una cuenta de Twitter --*"
-156.    Escribir "Ingrese su Usuario"
-157.    Leer usuario 
-158.    Escribir "Ingrese sus apellidos"
-159.    Leer apellidos
-160.    Escribir "Ingrese su edad"
-161.    Leer edad
-162.    Escribir "Ingrese su ciudad"
-163.    Leer ciudad 
-164.    Escribir "Ingrese su país"
-165.    Leer pais 
-166.    Escribir "Ingrese su idioma"
-167.    Leer idioma
-168.    Escribir "Ingrese su correo electrónico"
-169.    Leer correo
-170.    Escribir "*--------- Datos Ingresados ---------*" + "\n" +
+156.    Escribir "*-- Usted eligió la opción para crear una cuenta de Twitter --*"
+157.    Escribir "Ingrese su Usuario"
+158.    Leer usuario 
+159.    Escribir "Ingrese sus apellidos"
+160.    Leer apellidos
+161.    Escribir "Ingrese su edad"
+162.    Leer edad
+163.    Escribir "Ingrese su ciudad"
+164.    Leer ciudad 
+165.    Escribir "Ingrese su país"
+166.    Leer pais 
+167.    Escribir "Ingrese su idioma"
+168.    Leer idioma
+169.    Escribir "Ingrese su correo electrónico"
+170.    Leer correo
+171.    Escribir "*--------- Datos Ingresados ---------*" + "\n" +
                   "Usuario: " + usuario + "\n" + "Apellidos: " + 
                   apellidos + "\n" +  "Edad: " + edad + "\n" 
                   + "Ciudad: "+ ciudad + "\n" + "Pais: " + pais 
                   + "\n" + "Idioma: " + idioma + "Correo Electrónico: "
                   + correo + "\n" +
                   "*----------------<***>---------------*"
-171. Fin funcion crearTwitter
+172. Fin funcion crearTwitter
 
-172. funcion obtenerMensaje(a, i)
-173.     cadena, x(200)[{a-z},{A-Z},{0-100},{BS}] <-- ""
-174.     (mensajeFinal(3),x(300)[{a-z}, {A-Z}, {BS}])
-175.     mensajeFinal <-- {"Campaña con poca afluencia", 
+173. funcion obtenerMensaje(a, i)
+174.     cadena, x(200)[{a-z},{A-Z},{0-100},{BS}] <-- ""
+175.     (mensajeFinal(3),x(300)[{a-z}, {A-Z}, {BS}])
+176.     mensajeFinal <-- {"Campaña con poca afluencia", 
                         "Campaña moderada siga adelante", 
                         "Excelente campaña"}
-176.     Si ((a >= 1) and (a <= 5)) entonces
-177.         cadena <-- mensajeFinal[0]
-178.     De lo contrario
-179.         Si ((a >= 6) and (a <= 15)) entonces
-180.             cadena <-- mensajeFinal[1]
-181.         De lo contrario
-182.             Si (a >= 16) entonces
-183.                 cadena <-- mensajeFinal[2]
-184.             Fin si
-185.         Fin si
-186.     Fin si
-187.     retorna cadena
-188. Fin funcion obtenerMensaje
-189. Fin
+177.     Si ((a >= 1) and (a <= 5)) entonces
+178.         cadena <-- mensajeFinal[0]
+179.     De lo contrario
+180.         Si ((a >= 6) and (a <= 15)) entonces
+181.             cadena <-- mensajeFinal[1]
+182.         De lo contrario
+183.             Si (a >= 16) entonces
+184.                 cadena <-- mensajeFinal[2]
+185.             Fin si
+186.         Fin si
+187.     Fin si
+188.     retorna cadena
+189. Fin funcion obtenerMensaje
+190. Fin
