@@ -4,7 +4,7 @@
 4.      bandera, l <-- True
 5,      cadena, x(200)[{a-z},{A-Z},{0-100},{BS}]
 6.      salida, x(200)[{a-z},{A-Z},{0-100},{BS}]
-7.      contador,i [0-n]
+7.      contador,i [0-n] <-- 0
 8.      Mientras(bandera)entonces
 9.          contador <-- contador + 1
 10.         Escribir "Si ingresa 1 se creara una cuenta de Facebook\n"
